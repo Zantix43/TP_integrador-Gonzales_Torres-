@@ -51,8 +51,6 @@ public class etapa3 {
 				switch (letra.toUpperCase()) {
 
 				case "A":
-
-					while (ocupadoA == false) {
 						System.out.println("\nque numero de asiento desea?(4 asientos por fila DEL 1 AL 4)");
 						numero = entrada.nextInt();
 						if (numero < 0 || numero > 4) {
@@ -85,12 +83,11 @@ public class etapa3 {
 							System.out.println("\ntotal gastado: " + ventas_totales);
 							ocupadoA = true;
 						}
-					}
+					
 					break;
 
 				case "B":
 
-					while (ocupadoB == false) {
 						System.out.println("\nque numero de asiento desea?(4 asientos por fila DEL 1 AL 4)");
 						numero = entrada.nextInt();
 						if (numero < 0 || numero > 4) {
@@ -123,12 +120,11 @@ public class etapa3 {
 							System.out.println("\ntotal gastado: " + ventas_totales);
 							ocupadoB = true;
 						}
-					}
+					
 					break;
 
 				case "C":
-					while (ocupadoC == false) {
-
+	
 						System.out.println("\nque numero de asiento desea?(4 asientos por fila DEL 1 AL 4)");
 						numero = entrada.nextInt();
 						if (numero < 0 || numero > 4) {
@@ -161,7 +157,7 @@ public class etapa3 {
 							System.out.println("\ntotal gastado: " + ventas_totales);
 							ocupadoC = true;
 						}
-					}
+					
 					break;
 
 				}
